@@ -38,10 +38,13 @@ const GlobalStyles = createGlobalStyle`
       --cast: 4px;
     }
   }
+
   .gatsby-image-wrapper img[src*=base64\\,] {
     image-rendering: -moz-crisp-edges;
     image-rendering: pixelated;
   }
+
+  
   /* Scrollbar Styles */
   body::-webkit-scrollbar {
     width: 12px;
