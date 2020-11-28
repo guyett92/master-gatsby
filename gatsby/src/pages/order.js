@@ -87,7 +87,11 @@ export default function OrderPage({ data }) {
             </MenuItemStyles>
           ))}
         </fieldset>
-        <fieldset disabled={loading} className="order">
+        <fieldset
+          disabled={loading}
+          className="order"
+          style={{ alignContent: 'start' }}
+        >
           <legend>Order</legend>
           <PizzaOrder
             order={order}
